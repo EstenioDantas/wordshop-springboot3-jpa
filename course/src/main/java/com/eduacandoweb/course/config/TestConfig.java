@@ -10,8 +10,8 @@ import org.springframework.context.annotation.Profile;
 import java.util.Arrays;
 
 @Configuration
-@Profile("teste")
-public class TesteConfig implements CommandLineRunner {
+@Profile("test")
+public class TestConfig implements CommandLineRunner {
 
     @Autowired
     private UserRepository userRepository;
