@@ -4,7 +4,7 @@ import jakarta.persistence.*;
 
 import java.io.Serializable;
 import java.util.Objects;
-import java.util.UUID;
+
 
 //DIZENNDO PRO JPA COMO CONVERTER OS DADOS AQUI PARA O MODELO RELACIONAL DB
 @Entity
@@ -82,7 +82,6 @@ public class User implements Serializable {
 
     public void setPassword(String password) {
         this.password = password;
-
 
     }
 
